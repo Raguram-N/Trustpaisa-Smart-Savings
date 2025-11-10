@@ -46,7 +46,8 @@ It’s a **smart offer + loan comparison platform** that helps users:
 | Loan Amount | ₹30,000 | ₹30,000 |
 | Interest | ₹10,000 | ₹5,000 |
 | **Total Payment** | ₹70,000 | ₹65,000 |
-| ✅ **You Save** | — | ₹5,000 |
+
+### ✅ **You Save** — ₹5,000 
 
 **Result:**  
 Instead of paying ₹70,000 through EMI, the same user pays only ₹65,000 with **TrustPaisa Loan** — saving ₹5,000 effortlessly.  
@@ -68,8 +69,9 @@ Here’s how TrustPaisa helps 👇
 | 1️⃣ | You find the **offer price ₹15,000** in TrustPaisa app |
 | 2️⃣ | You choose **TrustPaisa Loan ₹15,000** (interest ₹5,000) |
 | 3️⃣ | You instantly buy the product at the offer price |
-| 💰 | **Total Payment = ₹20,000** for a ₹30,000 mobile |
-| ✅ **You Save ₹10,000!** |
+| ✅ | **Total Payment = ₹20,000** for a ₹30,000 mobile |
+
+### 💰 **You Save ₹10,000!** 
 
 **Result:**  
 Even without full cash, TrustPaisa lets you grab the **best-time offer** and still save ₹10,000 compared to regular MRP.  
@@ -95,36 +97,6 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
    - TrustPaisa loan total  
    - Real-time offer prices (if available)  
 3. Compare → Choose → Buy → Save  
-
----
-
-## 🧱 Tech Stack (Concept Stage)
-
-| Layer | Technology |
-|--------|-------------|
-| 🎨 Frontend | React + Tailwind CSS |
-| ⚙️ Backend | Flask / Node.js |
-| 🗄️ Database | Firebase / MongoDB |
-| 🔗 APIs | Offer Price Tracker, EMI & Loan Comparison Engine |
-| 🤖 Future AI Module | Predictive Offer Alerts + Savings Optimizer |
-
----
-
-## 🚀 Vision  
-
-> “To empower every Indian buyer with *financial clarity* — to see, compare, and save before spending.”
-
----
-
-## 🧭 Roadmap  
-
-- [ ] Build loan comparison engine  
-- [ ] Integrate offer scraping APIs  
-- [ ] Add EMI calculator with visualization  
-- [ ] Launch mobile app version  
-- [ ] Introduce AI-powered “Smart Offer Alerts”  
-
----
 
 ---
 
@@ -220,17 +192,25 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
-## 🧰 Tech Stack  
+## 🧱 Tech Stack (Concept Stage)
 
-| Layer | Tools / Technologies |
-|-------|----------------------|
-| **Design & Prototyping** | Figma, Adobe XD |
-| **Frontend** | React.js, TailwindCSS |
-| **Backend** | Node.js, Express |
-| **Database** | MongoDB / Firebase |
-| **API Layer** | REST / GraphQL |
-| **Payment & EMI Integration** | Razorpay, Cashfree, Finbox SDK |
-| **Analytics** | Mixpanel, Firebase Analytics |
+| Layer | Technology |
+|--------|-------------|
+| 🎨 Frontend | React + Tailwind CSS |
+| ⚙️ Backend | Flask / Node.js |
+| 🗄️ Database | Firebase / MongoDB |
+| 🔗 APIs | Offer Price Tracker, EMI & Loan Comparison Engine |
+| 🤖 Future AI Module | Predictive Offer Alerts + Savings Optimizer |
+
+---
+
+## 🧭 Roadmap  
+
+- [ ] Build loan comparison engine  
+- [ ] Integrate offer scraping APIs  
+- [ ] Add EMI calculator with visualization  
+- [ ] Launch mobile app version  
+- [ ] Introduce AI-powered “Smart Offer Alerts”  
 
 ---
 
@@ -253,12 +233,19 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
+
 ## 🏁 Conclusion  
 
 **Trustpaisa** isn’t just another fintech app — it’s **a financial companion for the modern buyer**.  
 By combining **transparency**, **personalization**, and **smart savings visualization**, it empowers people to take control of their purchases without financial fear.  
 
-> “At Trustpaisa, we don’t just help you buy — we help you buy smart.”
+> “At Trustpaisa, we don’t  help you to just buy — we help you to smart buy.”
+
+---
+
+## 🚀 Vision  
+
+> “To empower every Indian buyer with *financial clarity* — to see, compare, and save before spending.”
 
 ---
 
@@ -266,10 +253,6 @@ By combining **transparency**, **personalization**, and **smart savings visualiz
 
 **RAGURAM NARAYANASWAMY**  
 QA | UX Research | Growth Strategy | Product Management  
-
-📫 Email: [raguramcdm@gmail.com](mailto:raguramcdm@gmail.com)  
-🌐 Portfolio: [Link to Portfolio]  
-💼 LinkedIn: [LinkedIn Profile Link]  
 
 ---
 
