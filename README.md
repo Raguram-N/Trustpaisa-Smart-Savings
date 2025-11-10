@@ -201,6 +201,15 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="business.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+
 ## 📊 Market Opportunity  
 
 - 💹 India’s **BNPL (Buy Now Pay Later)** market is projected to reach **$45–50 billion by 2027**.  
@@ -224,7 +233,11 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ### 💡 3. Advertising & Insights  
 - **Personalized Offers** – Data-driven ads with transparent finance-first approach.  
-- **Aggregated Analytics Dashboard** – Credit trend insights for partner institutions.  
+- **Aggregated Analytics Dashboard** – Credit trend insights for partner institutions.
+
+</td>
+</tr>
+</table>
 
 ---
 
