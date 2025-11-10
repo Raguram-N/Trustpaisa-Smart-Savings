@@ -25,7 +25,7 @@ It empowers people to make **smart purchase decisions** by transparently showing
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="problem statement.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+<img src="story.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
 
 </td>
 <td width="60%" valign="top">
@@ -34,15 +34,16 @@ It empowers people to make **smart purchase decisions** by transparently showing
 Most consumers in emerging markets, especially millennials and first-time earners, hesitate before making large purchases.  
 Even with growing digital payment options, **financial anxiety** and **lack of transparent EMI comparisons** often stop them from buying.  
 
-> Example: A watch costs ₹20,000. The buyer has ₹10,000 now. EMI options seem confusing — hidden charges, unclear interest, uncertain savings.  
-> They abandon the purchase.  
+Example: A watch costs ₹20,000. The buyer has ₹10,000 now. EMI options seem confusing — hidden charges, unclear interest, uncertain savings.  
+They abandon the purchase.  
+
+> **Insight:**  
+> People don’t just need *loans* — they need *clarity and confidence* in their buying power.
 
 </td>
 </tr>
 </table>
 
-> **Insight:**  
-> People don’t just need *loans* — they need *clarity and confidence* in their buying power.
 
 ---
 
@@ -52,7 +53,7 @@ Even with growing digital payment options, **financial anxiety** and **lack of t
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<img src="problem statement.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+<img src="solution.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
 
 </td>
 <td width="60%" valign="top">
@@ -70,11 +71,8 @@ It’s a **smart offer + loan comparison platform** that helps users:
 - 💸 Buy products instantly during flash or festival sales  
 - 💡 See their **actual savings**, not just discounts  
 
-</td>
-</tr>
-</table>
-
 ---
+
 
 ## 🧩 Scenario 1 — EMI vs TrustPaisa Comparison  
 
@@ -92,6 +90,11 @@ It’s a **smart offer + loan comparison platform** that helps users:
 Instead of paying ₹70,000 through EMI, the same user pays only ₹65,000 with **TrustPaisa Loan** — saving ₹5,000 effortlessly.  
 
 > 💡 *TrustPaisa = Smarter loan, lesser cost, clearer decision.*
+
+</td>
+</tr>
+</table>
+
 
 ---
 
@@ -117,6 +120,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
+
 ## 🎯 Why TrustPaisa  
 
 | Feature | What It Does | Benefit |
@@ -126,7 +130,9 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 | ⚡ **Instant Purchase Option** | One-tap “Buy Now” with TrustPaisa loan | No delay during offers |
 | 📊 **Savings Visualization** | Graphically shows actual savings | Gives financial clarity instantly |
 
+
 ---
+
 
 ## 🧠 How It Works  
 
@@ -148,6 +154,10 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 - 🔍 **Smart Filters** – Sort by savings %, interest rate, or tenure.  
 - 🧠 **AI Deal Advisor** – Recommends best-value offers based on your budget.  
 - 💬 **Financial Literacy Nudges** – Micro tips about credit health and smart financing.
+
+</td>
+</tr>
+</table>
 
 ---
 
