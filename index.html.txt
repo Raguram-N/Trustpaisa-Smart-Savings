@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>TrustPaisa — Prototype Flow</title>
+<style>
+:root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4;--success:#10b981}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial}
+body{margin:0;background:linear-gradient(180deg,#071126 0%, #071829 100%);color:#e6eef8}
+.app{max-width:1100px;margin:36px auto;padding:28px}
+.header{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(90deg,#06b6d4,#3b82f6);display:flex;align-items:center;justify-content:center;font-weight:700}
+h1{margin:0;font-size:20px}
+.nav{display:flex;gap:10px}
+.btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:8px 12px;border-radius:8px;cursor:pointer}
+.btn.active{background:linear-gradient(90deg,#06b6d4,#3b82f6);color:#041025;border: font-weight:600}
+.grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:22px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+.product{display:flex;gap:12px;align-items:center;padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);margin-bottom:10px}
+.prod-img{width:72px;height:72px;border-radius:8px;background:#051327;display:flex;align-items:center;justify-content:center;font-weight:600}
+.prod-title{font-weight:600}
+.muted{color:var(--muted);font-size:13px}
+.tag{background:rgba(255,255,255,0.04);padding:6px 8px;border-radius:8px;font-size:12px}
+.offer{color:var(--accent);font-weight:700}
+.calc{display:flex;flex-direction:column;gap:8px}
+label{font-size:13px;color:var(--muted)}
+input[type=number]{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+.actions{display:flex;gap:10px;margin-top:8px}
+.primary{background:linear-gradient(90deg,#06b6d4,#3b82f6);color:#041025;padding:10px 12px;border-radius:8px;border:none;cursor:pointer}
+.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 12px;border-radius:8px;color:var(--muted);cursor:pointer}
+.result{background:linear-gradient(90deg, rgba(6,182,212,0.06), rgba(59,130,246,0.02));padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.02)}
+.small{font-size:13px}
+.compare{display:flex;flex-direction:column;gap:6px}
+.bar{height:10px;border-radius:6px;background:rgba(255,255,255,0.04);overflow:hidden}
+.bar > i{display:block;height:100%;background:linear-gradient(90deg,#06b6d4,#3b82f6)}
+.footer{margin-top:22px;color:var(--muted);font-size:13px;text-align:center}
+/* pages */
+.page{display:none}
+.page.active{display:block}
+.prod-actions{margin-left:auto;display:flex;gap:8px}
+.pill{font-size:12px;padding:6px 8px;border-radius:999px;background:rgba(255,255,255,0.03)}
+/* responsive */
+@media (max-width:900px){.grid{grid-template-columns:1fr;}.nav{display:none}}
+</style>
+</head>
+<body>
+<div class="app">
+<div class="header">
+<div class="brand">
+<div class="logo">TP</div>
+<div>
+<h1>💰 TrustPaisa — Prototype Flow</h1>
+<div class="muted">Smart Offer & EMI Intelligence — interactive prototype</div>
+</div>
+</div>
+<div class="nav">
+<button class="btn active" data-page="home">Home</button>
+<button class="btn" data-page="offers">Offers</button>
+<button class="btn" data-page="compare">Compare</button>
+<button class="btn" data-page="buy">Buy</button>
+<button class="btn" data-page="track">Track EMI</button>
+</div>
+</div>
+
+<div class="grid">
+<div>
+<!-- Pages -->
+<div id="home" class="page active card">
+<h3>Welcome — Quick walkthrough</h3>
+<p class="muted small">This prototype demonstrates page-by-page flow: discover offers, compare EMI vs TrustPaisa loan, buy during offers, and track repayments.</p>
+
+<div style="margin-top:14px">
+<h4>Featured</h4>
+<div class="product" data-price="60000">
+<div class="prod-img">📱</div>
+<div>
+<div class="prod-title">Flagship Mobile</div>
+<div class="muted small">MRP ₹60,000 • Bank offer: 10% off</div>
+</div>
+<div class="prod-actions">
+<span class="pill offer">Festival: ₹40,000</span>
+<button class="btn" onclick="openCompareFromCard(60000)">Compare</button>
+</div>
+</div>
+
+<div class="product" data-price="30000">
+<div class="prod-img">🎧</div>
+<div>
+<div class="prod-title">Wireless Headset</div>
+<div class="muted small">MRP ₹30,000 • Offer: 50% off</div>
+</div>
+<div class="prod-actions">
+<span class="pill offer">Offer: ₹15,000</span>
+<button class="btn" onclick="openCompareFromCard(30000)">Compare</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="offers" class="page card">
+<h3>Offers — Live discovery</h3>
+<p class="muted small">Browse time-limited festival offers — TrustPaisa lets you buy even if you don't have full cash.</p>
+<div style="margin-top:12px">
+<div class="product" data-price="30000">
+<div class="prod-img">📱</div>
+<div>
+<div class="prod-title">Mobile — Festival Offer</div>
+<div class="muted small">MRP ₹30,000 → Offer ₹15,000</div>
+</div>
+<div class="prod-actions">
+<button class="primary" onclick="openBuy(30000,15000)">Buy at ₹15,000</button>
+</div>
+</div>
+
+<div class="product" data-price="20000">
+<div class="prod-img">⌚</div>
+<div>
+<div class="prod-title">Watch — Bank Deal</div>
+<div class="muted small">MRP ₹20,000 → Offer ₹12,000</div>
+</div>
+<div class="prod-actions">
+<button class="primary" onclick="openBuy(20000,12000)">Buy at ₹12,000</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="compare" class="page card">
+<h3>Compare — EMI vs TrustPaisa</h3>
+<p class="muted small">Enter your budget and see side-by-side totals.</p>
+
+<div class="calc" style="margin-top:12px">
+<label>Product Price (₹)</label>
+<input id="cmp-price" type="number" value="60000" />
+<label>Your Available Budget (₹)</label>
+<input id="cmp-budget" type="number" value="30000" />
+<div style="display:flex;gap:8px;align-items:center">
+<button class="primary" onclick="runCompare()">Calculate</button>
+<button class="secondary" onclick="exampleCompare()">Use Example</button>
+</div>
+
+<div id="cmp-result" class="result" style="margin-top:10px;display:none">
+<div class="compare">
+<div><strong>Traditional EMI</strong> — Interest assumed: <span id="emi-interest">₹0</span></div>
+<div class="bar"><i id="emi-bar" style="width:60%"></i></div>
+<div><strong>TrustPaisa Loan</strong> — Interest assumed: <span id="tp-interest">₹0</span></div>
+<div class="bar"><i id="tp-bar" style="width:40%"></i></div>
+<div style="margin-top:8px">Total Payment Comparison: <strong id="cmp-total"></strong></div>
+<div class="muted small">Tip: TrustPaisa optimizes for lower fixed interest when possible.</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="buy" class="page card">
+<h3>Buy — One-tap Offer Purchase</h3>
+<p class="muted small">If an offer exists, TrustPaisa lets you pay via a small loan and grab the deal instantly.</p>
+
+<div id="buy-panel" style="margin-top:12px">
+<div class="muted small">Selected product: <span id="buy-desc">—</span></div>
+<div style="margin-top:10px" class="calc">
+<label>Offer Price (₹)</label>
+<input id="buy-offer" type="number" />
+<label>Chosen Loan Amount (₹)</label>
+<input id="buy-loan" type="number" />
+<div style="display:flex;gap:8px;align-items:center">
+<button class="primary" onclick="calculateBuy()">Simulate Buy</button>
+<button class="secondary" onclick="resetBuy()">Reset</button>
+</div>
+
+<div id="buy-result" class="result" style="margin-top:10px;display:none">
+<div><strong>Total Payable:</strong> ₹<span id="buy-total">0</span></div>
+<div class="muted small">Breakdown: Offer ₹<span id="show-offer">0</span> + Interest ₹<span id="show-int">0</span></div>
+<div style="margin-top:8px;color:var(--success)">You saved: ₹<span id="buy-save">0</span> vs MRP</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="track" class="page card">
+<h3>Track EMI & Loans</h3>
+<p class="muted small">A lightweight tracker visualizes remaining EMI and next due date.</p>
+<div style="margin-top:12px">
+<div class="result">
+<div>Outstanding Balance: <strong>₹12,000</strong></div>
+<div class="muted small">Next due: <strong>10 Dec 2025</strong></div>
+<div style="margin-top:8px">Progress</div>
+<div class="bar" style="margin-top:6px"><i style="width:60%"></i></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div>
+<div class="card">
+<h4>Quick Actions</h4>
+<div style="margin-top:10px" class="small muted">Use these controls to try the prototype scenarios faster.</div>
+<div style="margin-top:12px;display:flex;flex-direction:column;gap:10px">
+<button class="btn" onclick="goto('compare');exampleCompare()">Try EMI vs TrustPaisa (₹60k)</button>
+<button class="btn" onclick="goto('offers')">Browse Festival Offers</button>
+<button class="btn primary" onclick="goto('buy');openBuy(30000,15000)">Buy Offer: Headset ₹15k</button>
+</div>
+</div>
+
+<div class="card" style="margin-top:12px">
+<h4>Explanation</h4>
+<div class="muted small">This prototype simulates two main flows:
+<ul>
+<li>Compare normal EMI with a TrustPaisa-fixed loan (shows interest & totals).</li>
+<li>Buy during offers by taking a small TrustPaisa loan to cover the discounted price.</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="footer">Prototype — made with ♥ by Raguram • Use for interviews & product demos</div>
+</div>
+
+<script>
+// Navigation
+const tabs = document.querySelectorAll('.nav .btn');
+tabs.forEach(t=>t.addEventListener('click', ()=>{tabs.forEach(x=>x.classList.remove('active'));t.classList.add('active');goto(t.dataset.page)}))
+function goto(page){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));document.getElementById(page).classList.add('active');window.scrollTo({top:0,behavior:'smooth'})}
+
+// Compare logic
+function exampleCompare(){document.getElementById('cmp-price').value=60000;document.getElementById('cmp-budget').value=30000;runCompare()}
+function runCompare(){
+const price=Number(document.getElementById('cmp-price').value)||0
+const budget=Number(document.getElementById('cmp-budget').value)||0
+const loan = Math.max(0, price - budget)
+// simple interest assumptions for demo
+const emiInterest = Math.round(loan * 0.333) // e.g., 33% total interest
+const tpInterest = Math.round(loan * 0.166) // 16.6% total interest
+const emiTotal = price - budget + emiInterest + budget
+const tpTotal = price - budget + tpInterest + budget
+document.getElementById('emi-interest').textContent = '₹' + emiInterest.toLocaleString()
+document.getElementById('tp-interest').textContent = '₹' + tpInterest.toLocaleString()
+const emiPct = Math.min(100, (emiInterest/(loan||1))*50 + 30)
+const tpPct = Math.min(100, (tpInterest/(loan||1))*50 + 10)
+document.getElementById('emi-bar').style.width = emiPct + '%'
+document.getElementById('tp-bar').style.width = tpPct + '%'
+document.getElementById('cmp-total').textContent = `Traditional EMI: ₹${emiTotal.toLocaleString()} — TrustPaisa: ₹${tpTotal.toLocaleString()}`
+document.getElementById('cmp-result').style.display = 'block'
+}
+
+// Open compare from card
+function openCompareFromCard(price){goto('compare');document.getElementById('cmp-price').value=price;document.getElementById('cmp-budget').value=Math.round(price/2);runCompare()}
+
+// Buy flow
+function openBuy(mrp,offer){goto('buy');document.getElementById('buy-desc').textContent = `Product MRP ₹${mrp} — Offer ₹${offer}`;document.getElementById('buy-offer').value = offer;document.getElementById('buy-loan').value = offer}
+function calculateBuy(){
+const mrp=Number(document.getElementById('buy-desc').textContent.match(/MRP ₹(\d+)/)?.[1]||0)
+const offer=Number(document.getElementById('buy-offer').value)||0
+const loan=Number(document.getElementById('buy-loan').value)||0
+// interest assumption: 33% of loan for normal EMI, 33% here for demo
+const interest=Math.round(loan * 0.333)
+const total = offer + interest
+const saved = Math.max(0, mrp - total)
+document.getElementById('buy-total').textContent = total.toLocaleString()
+document.getElementById('show-offer').textContent = offer.toLocaleString()
+document.getElementById('show-int').textContent = interest.toLocaleString()
+document.getElementById('buy-save').textContent = saved.toLocaleString()
+document.getElementById('buy-result').style.display = 'block'
+}
+function resetBuy(){document.getElementById('buy-offer').value='';document.getElementById('buy-loan').value='';document.getElementById('buy-result').style.display='none';document.getElementById('buy-desc').textContent='—'}
+
+// init
+document.addEventListener('DOMContentLoaded', ()=>{
+// wire navbar for small screens
+document.querySelectorAll('.btn[data-page]').forEach(b=>b.addEventListener('click',()=>{}))
+})
+</script>
+</body>
+</html>
