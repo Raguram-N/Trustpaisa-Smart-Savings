@@ -1,5 +1,10 @@
 # 💰 Trustpaisa — Smart Savings on Every Purchase  
 
+![Stage](https://img.shields.io/badge/Stage-Concept-blue)
+![Build](https://img.shields.io/badge/Build-In_Progress-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-pink)
+
 **Trustpaisa** is a fintech platform redefining how users shop, save, and manage their finances.  
 It empowers people to make **smart purchase decisions** by transparently showing how much they can **save through EMI-linked offers**, **discounted rates**, and **real-time financial insights**.  
 
