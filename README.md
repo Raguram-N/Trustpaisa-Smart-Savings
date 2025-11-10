@@ -38,7 +38,8 @@ Example: A watch costs ₹20,000. The buyer has ₹10,000 now. EMI options seem 
 They abandon the purchase.  
 
 > **Insight:**  
-> People don’t just need *loans* — they need *clarity and confidence* in their buying power.
+> People don’t just need *loans* —
+> they need *clarity and confidence* in their buying power.
 
 </td>
 </tr>
