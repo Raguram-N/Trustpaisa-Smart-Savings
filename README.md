@@ -261,6 +261,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 - [ ] Launch mobile app version  
 - [ ] Introduce AI-powered “Smart Offer Alerts”  
 
+
 ---
 
 ## 🚀 Future Scope  
@@ -271,6 +272,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 - 🔐 **Smart Security Layer** – Blockchain-based transparency in EMI contracts.  
 - 💬 **Voice-based Finance Assistant** – For users with low digital literacy.
 
+
 ---
 
 ## 🧭 Feature Enhancement Scope  
@@ -279,6 +281,11 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 - 💡 **Community Offers Zone** – Group-buy discounts powered by social referrals.  
 - 🧾 **Smart Notification System** – EMI reminders + next best offer tips.  
 - 🔍 **Credit Optimizer** – Suggests better loan or EMI plans automatically.
+
+
+---
+
+<img src="Scope.png" width="65%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
 
 ---
 
