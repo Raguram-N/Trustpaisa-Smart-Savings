@@ -179,9 +179,6 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 > ## ⚡ Demo prototype: [link](https://raguram-n.github.io/Trustpaisa-Smart-Savings/)
 
-
-
-
 ---
 
 ## 💡 Benefits  
@@ -310,6 +307,13 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 ---
 
 <img src="Scope.png" width="95%"/>
+
+---
+
+## 📈 Research proof
+
+Market Opportunity [Link](https://github.com/Raguram-N/Market_Proof--Trustpaisa/blob/main/README.md)
+
 
 ---
 
