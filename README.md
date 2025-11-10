@@ -100,7 +100,7 @@ Here’s how TrustPaisa helps 👇
 
 | Step | Description |
 |------|--------------|
-| 1️⃣ | You find the **offer price ₹15,000** in TrustPaisa app |
+| 1️⃣ | You find the **offer price ₹15,000** in e-commerce app |
 | 2️⃣ | You choose **TrustPaisa Loan ₹15,000** (interest ₹5,000) |
 | 3️⃣ | You instantly buy the product at the offer price |
 | ✅ | **Total Payment = ₹20,000** for a ₹30,000 mobile |
