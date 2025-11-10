@@ -174,7 +174,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 5. **Buy Smart Screen** → Redirect to partner platforms with full transparency.  
 6. **Track My EMI** → Manage ongoing EMIs and get reminders.  
 
-🧮 *Trustpaisa turns confusing financial math into instant visual clarity.
+🧮 Trustpaisa turns confusing financial math into instant visual clarity.
 
 
 > ## ⚡ Demo prototype: [link](https://raguram-n.github.io/Trustpaisa-Smart-Savings/)
