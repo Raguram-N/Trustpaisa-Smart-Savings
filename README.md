@@ -48,15 +48,6 @@ They abandon the purchase.
 ---
 
 ## 💡 The Innovation  
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<img src="solution.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
-
-</td>
-<td width="60%" valign="top">
    
 ###  The Core Idea  
 
@@ -121,6 +112,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 ---
 
 
+
 ## 🎯 Why TrustPaisa  
 
 | Feature | What It Does | Benefit |
@@ -133,6 +125,15 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="solution.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+
 
 ## 🧠 How It Works  
 
@@ -142,6 +143,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
    - TrustPaisa loan total  
    - Real-time offer prices (if available)  
 3. Compare → Choose → Buy → Save  
+
 
 ---
 
@@ -154,6 +156,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 - 🔍 **Smart Filters** – Sort by savings %, interest rate, or tenure.  
 - 🧠 **AI Deal Advisor** – Recommends best-value offers based on your budget.  
 - 💬 **Financial Literacy Nudges** – Micro tips about credit health and smart financing.
+
 
 </td>
 </tr>
@@ -201,14 +204,6 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<img src="business.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
-
-</td>
-<td width="60%" valign="top">
 
 ## 📊 Market Opportunity  
 
@@ -220,6 +215,15 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 > **Trustpaisa** isn’t just riding the fintech wave — it’s guiding users to *ride it smartly.*
 
 ---
+
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="business.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
 
 ## 💰 Revenue Model  
 
@@ -298,7 +302,7 @@ Even without full cash, TrustPaisa lets you grab the **best-time offer** and sti
 
 ---
 
-<img src="Scope.png" width="65%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+<img src="Scope.png" width="95%"/>
 
 ---
 
