@@ -21,6 +21,15 @@ It empowers people to make **smart purchase decisions** by transparently showing
 
 ## 💭 The Story – The Spark  
 
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="problem statement.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+
 ### 💸 The Observation  
 Most consumers in emerging markets, especially millennials and first-time earners, hesitate before making large purchases.  
 Even with growing digital payment options, **financial anxiety** and **lack of transparent EMI comparisons** often stop them from buying.  
@@ -28,12 +37,26 @@ Even with growing digital payment options, **financial anxiety** and **lack of t
 > Example: A watch costs ₹20,000. The buyer has ₹10,000 now. EMI options seem confusing — hidden charges, unclear interest, uncertain savings.  
 > They abandon the purchase.  
 
-**Insight:**  
-People don’t just need *loans* — they need *clarity and confidence* in their buying power.
+</td>
+</tr>
+</table>
+
+> **Insight:**  
+> People don’t just need *loans* — they need *clarity and confidence* in their buying power.
 
 ---
 
 ## 💡 The Innovation  
+
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<img src="problem statement.png" width="95%" alt="Just Click - Story Illustration" style="border-radius:10px; box-shadow: 0px 0px 8px rgba(0,0,0,0.2);" />
+
+</td>
+<td width="60%" valign="top">
+   
 ###  The Core Idea  
 
 Most people buy products through EMI without realizing how much extra they’re paying.  
@@ -46,6 +69,10 @@ It’s a **smart offer + loan comparison platform** that helps users:
 - 🎁 Unlock real-time offer prices from top stores  
 - 💸 Buy products instantly during flash or festival sales  
 - 💡 See their **actual savings**, not just discounts  
+
+</td>
+</tr>
+</table>
 
 ---
 
