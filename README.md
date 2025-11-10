@@ -1,9 +1,16 @@
-# 💰 Trustpaisa — Smart Savings on Every Purchase  
+# Case study 
+
+## 💰 Trustpaisa — Smart Savings on Every Purchase  
 
 ![Stage](https://img.shields.io/badge/Stage-Concept-blue)
-![Build](https://img.shields.io/badge/Build-In_Progress-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-pink)
+![Build](https://img.shields.io/badge/Build-In_Experiment-yellow)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-green)
+
+
+---
+
+
+## 🧾 Overview
 
 **Trustpaisa** is a fintech platform redefining how users shop, save, and manage their finances.  
 It empowers people to make **smart purchase decisions** by transparently showing how much they can **save through EMI-linked offers**, **discounted rates**, and **real-time financial insights**.  
@@ -27,7 +34,7 @@ People don’t just need *loans* — they need *clarity and confidence* in their
 ---
 
 ## 💡 The Innovation  
-### 💡 The Core Idea  
+###  The Core Idea  
 
 Most people buy products through EMI without realizing how much extra they’re paying.  
 At the same time, many **miss out on huge festival discounts** because they don’t have enough ready cash.  
